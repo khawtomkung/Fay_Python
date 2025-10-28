@@ -1,4 +1,4 @@
-# 30C -> 86 F
+# 30C -> 86F
 celsius = float(input("Enter Temp (C) : "))
 fahreiheit = (celsius * 1.8) + 32
 
