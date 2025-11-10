@@ -299,7 +299,7 @@ def get_valid_bet(current_money: float) -> float:
 # ============================================================
 
 # ===== Path for ID User =====
-BASE_PATH = "/Users/kung/Module4/Fay_Python/Tong777/ID_user"
+BASE_PATH = "/Users/kung/Intro to programming_Python/Fay_Python/Tong777/ID_user"
 os.makedirs(BASE_PATH, exist_ok=True)
 
 # ===== Load Player =====
