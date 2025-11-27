@@ -1,4 +1,4 @@
-import pygame
+"""import pygame
 
 # general setup
 pygame.init()
@@ -17,4 +17,7 @@ while running:
     screen.fill('white')
     pygame.display.update()
 
-pygame.quit()
+pygame.quit()"""
+
+x = []
+print(type(x))

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Tong777 - Refactored Casino Terminal (OOP, File Handling, Decorator, Generator)
-Requirements implemented:
+Tong777 -OOP, File Handling, Decorator, Generator:
  - Player class with load/save (with open), hashed password, wallet
  - BaseGame abstract class + subclasses for games
  - game_session decorator to handle printing, auto-save and wallet updates
