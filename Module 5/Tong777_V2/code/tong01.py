@@ -111,7 +111,6 @@ def loading_screen() -> None:
 BASE_PATH = os.path.join(os.path.expanduser("~"), ".tong777_players")
 os.makedirs(BASE_PATH, exist_ok=True)
 
-
 # ------------------------
 # Player Class
 # ------------------------
