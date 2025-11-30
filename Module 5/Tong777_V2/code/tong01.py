@@ -1401,7 +1401,7 @@ class Blackjack(BaseGame):
                 time.sleep(1.5)
 
                 print(f"\n💰 Session net: {total_change:+.2f}")
-                
+
                 cont = get_char(
                     "\n♠ Play another hand? (y/n): ").lower().strip()
                 if cont != 'y':
@@ -1415,7 +1415,7 @@ class Blackjack(BaseGame):
                 time.sleep(1.5)
 
                 print(f"\n💰 Session net: {total_change:+.2f}")
-                
+
                 cont = get_char(
                     "\n♠ Play another hand? (y/n): ").lower().strip()
                 if cont != 'y':
@@ -1453,7 +1453,7 @@ class Blackjack(BaseGame):
             if busted:
                 print(f"\n💸 Lost: {bet:.2f}")
                 print(f"💰 Session net: {total_change:+.2f}")
-                
+
                 cont = get_char(
                     "\n♠ Play another hand? (y/n): ").lower().strip()
                 if cont != 'y':
@@ -1516,7 +1516,6 @@ class Blackjack(BaseGame):
             print(f"\n💵 Bet: {bet:.2f}")
             print(f"💰 Session net: {total_change:+.2f}")
 
-            
             cont = get_char("\n♠ Play another hand? (y/n): ").lower().strip()
             if cont != 'y':
                 print("\n💼 Leaving Blackjack table...")
@@ -1736,9 +1735,9 @@ class Slots(BaseGame):
                 print(f"💰 Won: {win:.2f}")
             else:
                 print(f"💸 Lost: {abs(win):.2f}")
-            
+
             total_change += win
-        
+
             print(f"\n💰 Session net: {total_change:+.2f}")
 
             cont = get_char("\n♠ Spin more? (y/n): ").lower().strip()
